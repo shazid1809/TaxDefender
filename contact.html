@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./imgs/favicon.png" type="image/x-icon" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=DM Sans"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>TaxDefender</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div id="nav-bg">
+        <div class="navbar-logo">
+          <img
+            src="./imgs/taxdefender-high-resolution-logo-transparent.png"
+            alt="Logo"
+          />
+        </div>
+        <div class="navbar-menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <header>
+        <div class="column">
+          <p id="support">SUPPORT</p>
+          <h1>Hi! We are here to help you!</h1>
+          <h4>
+            Have a question about our services? or just want to say hello, we're
+            here to help. Feel free to reach out to us.
+          </h4>
+          <a href="#contact-form">
+            <button>Connect With Us</button>
+          </a>
+        </div>
+        <div class="column">
+          <img src="./imgs/support-hero_lg.png" alt="Image" />
+        </div>
+      </header>
+
+      <!-- Second Section -->
+      <section id="second-section">
+        <div class="service-column">
+          <img
+            src="./imgs/online-support_sm.png"
+            alt="24/7 Online support image"
+          />
+          <h2>24/7 Online support</h2>
+          <p>
+            Our dedicated support team is available around the clock to assist
+            you with any questions or concerns you may have, ensuring prompt and
+            reliable assistance whenever you need it.
+          </p>
+        </div>
+        <div class="service-column">
+          <img
+            src="./imgs/On-ground-assistance_sm.png"
+            alt="On-ground assistance image          "
+          />
+          <h2>Instant Assistance Anytime</h2>
+          <p>
+            Need help outside of regular business hours? Our online support is
+            accessible 24 hours a day, 7 days a week, from any location,
+            providing you with instant assistance whenever you require it.
+          </p>
+        </div>
+        <div class="service-column">
+          <img
+            src="./imgs/Automated-ticked-tracking_sm.png"
+            alt="Automated ticked-tracking image"
+          />
+          <h2>Personalized Service</h2>
+          <p>
+            Our team is committed to providing personalized service tailored to
+            your specific needs, ensuring a seamless and satisfactory experience
+            every time.
+          </p>
+        </div>
+      </section>
+
+      <!-- Third Section -->
+      <section id="third-section">
+        <div class="column">
+          <img src="./imgs/49651.jpg" alt="contact-image" />
+        </div>
+        <div class="column" id="contact-form">
+          <h1 id="contact">Book an appointment</h1>
+          <h4>Get in touch with our team to clarify your queries</h4>
+          <form action="/submit" method="post">
+            <label for="firstName">First Name:</label>
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              required
+              tabindex="2"
+            />
+
+            <br />
+
+            <label for="lastName">Last Name:</label>
+
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              required
+              tabindex="1"
+            />
+
+            <br />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <br />
+
+            <label for="comment">Comment:</label>
+            <textarea
+              id="comment"
+              name="userComment"
+              rows="4"
+              cols="50"
+            ></textarea>
+
+            <br />
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+
+    <footer id="footer-section">
+      <section id="contact-info">
+        <div class="column-info">
+          <img src="./imgs/ezgif-5-dd9c7a3bf0.png" alt="call us icon" />
+          <p>Call us</p>
+          <a href="tel:+1556 555 777"><h3>+1556 555 777</h3></a>
+        </div>
+        <div class="column-info">
+          <img
+            src="./imgs/ezgif-5-cd5ee9267b.png"
+            alt="Easy large chain support image"
+          />
+          <p>Email on</p>
+          <a href="mailto:Mmazid0643@conestogac.on.ca"
+            ><h3>info@conestogac.on.ca</h3></a
+          >
+        </div>
+        <div class="column-info">
+          <img
+            src="./imgs/ezgif-5-b43cee4877.png"
+            alt="Multi-lingual support image"
+          />
+          <p>Free appointment</p>
+          <h3>Book a Date</h3>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
